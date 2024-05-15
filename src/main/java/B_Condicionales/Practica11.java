@@ -18,19 +18,40 @@ public class Practica11 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num1,num2;
+        int num1, num2;
         char opcion;
-        
+
         System.out.println("Eliga una Opcion:"
                 + "\nS, s -> Sumar"
                 + "\nR, r -> Restar"
                 + "\nM, m -> Multiplicar"
                 + "\nD, d -> Division");
         opcion = sc.next().charAt(0);
-        
-        switch(Character.toLowerCase(opcion)){
-            
-            
+
+        System.out.println("Ingrese el PRIMER valor:");
+        num1 = sc.nextInt();
+        System.out.println("Ingrese el SEGUNDO valor:");
+        num2 = sc.nextInt();
+
+        switch (opcion) {
+            case 's':
+                System.out.println("Suma: " + (num1 + num2));
+                break;
+            case 'r':
+                System.out.println("Resta: " + (num1 - num2));
+                break;
+            case 'm':
+                System.out.println("Producto: " + (num1 * num2));
+                break;
+            case 'd':
+                if (num2 != 0) {
+                    System.out.println("Division: " + (num1 / num2));
+                } else {
+                    System.out.println("Error: No se puede dividir por cero.");
+                }
+                break;
+            default:
+                System.out.println("Operacion no valida.");
         }
 
     }
