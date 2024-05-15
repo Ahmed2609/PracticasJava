@@ -44,7 +44,7 @@ public class Practica13 {
                 break;
             default:
                 System.out.println("Gracias por la visita!!");
-
+                break;
         }
 
     }
