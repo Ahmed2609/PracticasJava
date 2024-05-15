@@ -21,11 +21,12 @@ public class Practica11 {
         int num1, num2;
         char opcion;
 
-        System.out.println("Eliga una Opcion:"
+        System.out.print("Eliga una Opcion:"
                 + "\nS, s -> Sumar"
                 + "\nR, r -> Restar"
                 + "\nM, m -> Multiplicar"
-                + "\nD, d -> Division");
+                + "\nD, d -> Division"
+                + "\nOpcion: ");
         opcion = sc.next().charAt(0);
 
         System.out.println("Ingrese el PRIMER valor:");
