@@ -3,7 +3,7 @@
     Leer mediante el teclado 8 números. Después se debe pedir un número y una 
     posición, insertarlo en la posición indicada desplazando los que estén detrás.
  */
-package D_Arreglos;
+package E_Arreglos;
 
 import java.util.Scanner;
 

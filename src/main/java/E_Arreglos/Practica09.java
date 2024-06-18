@@ -3,7 +3,7 @@
     el primero pasa a ser el segundo, el segundo pasa a ser el tercero y así sucesivamente. 
     EI último pasa a ser el primero.
 */
-package D_Arreglos;
+package E_Arreglos;
 
 import java.util.Scanner;
 
