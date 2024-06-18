@@ -3,11 +3,20 @@
 */
 package D_NumerosAleatorios;
 
+import java.util.Random;
+
 /**
  * @author Ahmed Darhbane
  */
 public class Practica04 {
     public static void main(String[] args) {
+        Random rm = new Random();
+        int num;
+        
+        for (int i=0; i<20; i++) {
+            num = rm.nextInt(11);
+            System.out.print(num+" ");
+        }
         
     }
 }
